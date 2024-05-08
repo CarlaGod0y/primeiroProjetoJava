@@ -9,7 +9,7 @@ public class JogoDaAdivinhacaoJAVA {
         int numeroDigitado = 0;
 
         while(tentativas < 5) {
-            System.out.println("Digite um número de 0 a 100: ");
+            System.out.println("Digite um número entre 0 e 100: ");
             numeroDigitado = leitor.nextInt();
             tentativas++;
 
