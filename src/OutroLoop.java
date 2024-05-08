@@ -3,13 +3,6 @@ import java.util.Scanner;
 public class OutroLoop {
     public static void main(String[] args) {
 
-        int contador = 1;
-
-        while(contador <= 10) {
-            System.out.println(contador);
-            contador++;
-        }
-
         Scanner leitura = new Scanner(System.in);
         double mediaAvaliacao = 0; //o zero é o valor inicial da variável
         double nota = 0; //o zero é o valor inicial da variável
